@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<archimate:model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:archimate="http://www.archimatetool.com/archimate" name="CGAL_MPIR_AERO-BREIZH" id="0b3cae3c-6cee-4b6c-b3b1-235d83d5d1a7" version="4.0.0">
+  <folder name="Strategy" id="8987b46e-433a-4ba5-a554-b5d4de23e111" type="strategy"/>
+  <folder name="Business" id="4840924a-7daf-4c5e-93b6-633fe808224d" type="business"/>
+  <folder name="Application" id="61c5ad90-9778-431b-a69d-00660ea8f86d" type="application"/>
+  <folder name="Technology &amp; Physical" id="2fa5f78b-cdfd-41fc-b278-8918ce5dd326" type="technology"/>
+  <folder name="Motivation" id="a5b97b31-b509-4a2f-b929-ea14cc2db01f" type="motivation"/>
+  <folder name="Implementation &amp; Migration" id="23f68505-8495-42d1-ab71-303a88c9dfd5" type="implementation_migration"/>
+  <folder name="Other" id="fcedb045-d12f-43af-929c-e7cc40a1c5db" type="other"/>
+  <folder name="Relations" id="a52025cc-c3c1-40ea-9a4d-fa7570830075" type="relations"/>
+  <folder name="Views" id="73aa9025-8815-4f6b-b6ce-8aac6347d24c" type="diagrams">
+    <element xsi:type="archimate:ArchimateDiagramModel" name="Default View" id="8bc1da52-c977-4928-a486-5a8981c51e1f" viewpoint="motivation"/>
+    <element xsi:type="archimate:SketchModel" name="Menu" id="e030deef-f5e9-4ea3-90ee-fbfb62894ef7" background="0"/>
+  </folder>
+</archimate:model>
