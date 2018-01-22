@@ -175,6 +175,7 @@
     <element xsi:type="archimate:TriggeringRelationship" id="f6383619-8442-4b83-8340-46c0e988b254" source="be590c1a-f9be-4275-afdf-dbaa74764e1a" target="d6e63ddc-fa4c-458e-b087-2ef18888e053"/>
     <element xsi:type="archimate:FlowRelationship" id="a5a363a0-dec3-4969-9f7f-7b910a68dc46" source="d6e63ddc-fa4c-458e-b087-2ef18888e053" target="d6eac918-d049-423f-bbe8-f315089c86f3"/>
     <element xsi:type="archimate:ServingRelationship" id="d813ad63-7b5b-4fef-97cd-a96fdaa00b3c" source="d6eac918-d049-423f-bbe8-f315089c86f3" target="6754e32b-e493-4ac0-b338-a31fc77540e8"/>
+    <element xsi:type="archimate:RealizationRelationship" id="389a2956-0e51-468b-8bd0-cdb943278ccb" source="c9512ad6-f33a-46db-8780-34c7285caebe" target="83dbaf15-88c5-408f-8031-01b9928cca31"/>
   </folder>
   <folder name="Views" id="2be77c91-6f9b-41ba-bca9-d0850f49c65a" type="diagrams">
     <folder name="MaPetiteCie" id="1f021b5b-ab40-4507-a309-feee81d68dc4">
@@ -234,8 +235,8 @@
           </child>
         </element>
         <element xsi:type="archimate:ArchimateDiagramModel" name="1.1 - Service de badge d’Accès à carte à mémoire" id="d35959c9-4474-4e48-a4ec-08d25049137d" viewpoint="service_realization">
-          <child xsi:type="archimate:DiagramObject" id="edf54cbf-5e45-4bee-bdba-209e698605ee" archimateElement="83dbaf15-88c5-408f-8031-01b9928cca31">
-            <bounds x="204" y="72" width="169" height="55"/>
+          <child xsi:type="archimate:DiagramObject" id="edf54cbf-5e45-4bee-bdba-209e698605ee" targetConnections="4ac45217-146b-4585-9f37-6bf57a628452" archimateElement="83dbaf15-88c5-408f-8031-01b9928cca31">
+            <bounds x="12" y="72" width="169" height="55"/>
           </child>
           <child xsi:type="archimate:DiagramModelReference" id="79a30c1f-5290-400d-ae9d-09531e2ae758" model="8cb1a8d0-d562-4a39-aacd-fafcf36881cd">
             <bounds x="12" y="12" width="120" height="55"/>
@@ -249,6 +250,9 @@
             <sourceConnection xsi:type="archimate:Connection" id="d677aff9-e842-4179-9ba0-e9c6aaf4f899" targetConnections="25676ec6-c2cd-4f39-9902-7dc3fa108650" source="0109cc80-cf5e-4020-be21-4ae88b1a426b" target="e75398ed-12f7-4ae8-a4b8-518214437a85" archimateRelationship="2cb7beab-031a-4bd6-bb5e-c90321a3aa2e">
               <bendpoint startX="35" startY="69" endX="-275" endY="-3"/>
               <bendpoint startX="227" startY="69" endX="-192" endY="-3"/>
+            </sourceConnection>
+            <sourceConnection xsi:type="archimate:Connection" id="4ac45217-146b-4585-9f37-6bf57a628452" source="0109cc80-cf5e-4020-be21-4ae88b1a426b" target="edf54cbf-5e45-4bee-bdba-209e698605ee" archimateRelationship="389a2956-0e51-468b-8bd0-cdb943278ccb">
+              <bendpoint startX="-1" startY="-87" endX="192" endY="9"/>
             </sourceConnection>
           </child>
           <child xsi:type="archimate:DiagramObject" id="f51f3fee-2b4e-4af4-8476-95ba4d971b18" targetConnections="d05f3a8f-b675-462b-8664-9c143e20b17b 06a5b49e-af72-4cdc-b7f3-32378dccd9eb eafb41b6-0ff2-4664-96b6-c807712111c3" archimateElement="23e13ed7-1e65-4387-b9af-9288cfc7396f">
@@ -362,7 +366,7 @@
           </child>
         </element>
       </folder>
-      <element xsi:type="archimate:ArchimateDiagramModel" name="1 - Organisation Métier" id="12e5a598-a296-43ab-ae98-56920d5dd00f">
+      <element xsi:type="archimate:ArchimateDiagramModel" name="1 - Organisation Métier" id="12e5a598-a296-43ab-ae98-56920d5dd00f" viewpoint="organization">
         <child xsi:type="archimate:DiagramObject" id="a9de41a3-e666-46f6-aa22-8f5558b5078f" fillColor="#00ff00" archimateElement="df8ad251-eefe-4cdd-adef-c6aeb7c6dd8c">
           <bounds x="156" y="36" width="529" height="181"/>
           <sourceConnection xsi:type="archimate:Connection" id="cef66acc-c4ce-4d3c-b254-94b05c3e32de" source="a9de41a3-e666-46f6-aa22-8f5558b5078f" target="1c2b1007-b400-408d-80de-a3861f338fb5" archimateRelationship="b705a90c-a136-4553-ae05-3efd5765b016"/>
@@ -441,7 +445,7 @@
           <bounds x="168" y="174" width="120" height="55"/>
         </child>
         <child xsi:type="archimate:DiagramObject" id="313634bd-d171-4b39-920a-599e047bb226" targetConnections="ad22701e-0220-41c7-aacc-d7b5cdc639a0" archimateElement="dbece96d-25a2-46c2-b5e7-69e478894365">
-          <bounds x="492" y="282" width="120" height="55"/>
+          <bounds x="492" y="294" width="120" height="55"/>
           <sourceConnection xsi:type="archimate:Connection" id="0642d46b-35bd-4df0-908f-52eab5fb93a4" source="313634bd-d171-4b39-920a-599e047bb226" target="b16ae534-951c-4550-b5a6-7ba7bf36ca76" archimateRelationship="8c771b97-0cfa-4b53-9035-de8ff6288fae"/>
         </child>
         <child xsi:type="archimate:DiagramObject" id="96abbebf-db8a-4f05-8687-da9d004c0c06" targetConnections="76ec0f12-cb0c-447c-9250-81d8801ebb63" archimateElement="6a937c1a-fd64-4e22-986f-e6792077e5dd">
