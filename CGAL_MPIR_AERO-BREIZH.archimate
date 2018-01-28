@@ -450,46 +450,46 @@
     </element>
     <element xsi:type="archimate:ArchimateDiagramModel" name="5.1 - Ingénierie et gestion des données techniques" id="23fd6eef-0ef6-4099-8b8d-e8bbf1013b12" viewpoint="service_realization">
       <child xsi:type="archimate:DiagramObject" id="bfb978a5-c747-4442-bccf-ea29c407ee01" targetConnections="3571b379-790b-49c1-b84c-7ac6aadba05a" archimateElement="ca63bedf-ca81-4e3d-ab0b-bc6a1886c37b">
-        <bounds x="60" y="96" width="157" height="55"/>
+        <bounds x="24" y="108" width="157" height="55"/>
       </child>
       <child xsi:type="archimate:DiagramObject" id="90abcd3a-fa7a-4f9b-9dcf-ddd64381e8c6" fillColor="#80ffff" archimateElement="37d4b7c6-e4e5-4d93-8396-687f7d03593b">
-        <bounds x="60" y="12" width="120" height="55"/>
+        <bounds x="24" y="12" width="120" height="55"/>
         <sourceConnection xsi:type="archimate:Connection" id="3571b379-790b-49c1-b84c-7ac6aadba05a" source="90abcd3a-fa7a-4f9b-9dcf-ddd64381e8c6" target="bfb978a5-c747-4442-bccf-ea29c407ee01" archimateRelationship="614aa7fa-2786-46d1-96e7-69068cff23e4"/>
       </child>
     </element>
     <element xsi:type="archimate:ArchimateDiagramModel" name="5.2 - Maintenance cellule et modifications" id="8fbc7317-a950-4ba0-a267-5346345aa2de" viewpoint="service_realization">
       <child xsi:type="archimate:DiagramObject" id="c83ac775-2a06-4a50-8ca3-de0999c7a7e1" targetConnections="f262dcc5-1482-4e75-b40a-cf2b3b7cf51a" archimateElement="5c74bb3a-e2a3-4783-8598-9bbb17725703">
-        <bounds x="60" y="108" width="157" height="55"/>
+        <bounds x="24" y="108" width="157" height="55"/>
       </child>
       <child xsi:type="archimate:DiagramObject" id="7a96b28a-4f40-46b9-9ab9-34b8f8a6da47" fillColor="#80ffff" archimateElement="37d4b7c6-e4e5-4d93-8396-687f7d03593b">
-        <bounds x="60" y="12" width="120" height="55"/>
+        <bounds x="24" y="12" width="120" height="55"/>
         <sourceConnection xsi:type="archimate:Connection" id="f262dcc5-1482-4e75-b40a-cf2b3b7cf51a" source="7a96b28a-4f40-46b9-9ab9-34b8f8a6da47" target="c83ac775-2a06-4a50-8ca3-de0999c7a7e1" archimateRelationship="a7a10916-92f1-4759-8384-4fb4779c5002"/>
       </child>
     </element>
     <element xsi:type="archimate:ArchimateDiagramModel" name="5.3 - Décapage à sec et peinture" id="4b5617af-4afb-4798-bdf1-db381fbabdd1" viewpoint="service_realization">
       <child xsi:type="archimate:DiagramObject" id="da191177-cd86-437b-8b1e-e8a8a1464724" targetConnections="4cdb84cb-6713-45b2-98b3-6e17ba3d852d" archimateElement="7541c160-0481-416e-b61e-274e935eb08a">
-        <bounds x="51" y="96" width="120" height="55"/>
+        <bounds x="24" y="108" width="120" height="55"/>
       </child>
       <child xsi:type="archimate:DiagramObject" id="ce399359-7725-42ee-9e08-c99fcae8c7f6" fillColor="#80ffff" archimateElement="37d4b7c6-e4e5-4d93-8396-687f7d03593b">
-        <bounds x="51" y="12" width="120" height="55"/>
+        <bounds x="24" y="12" width="120" height="55"/>
         <sourceConnection xsi:type="archimate:Connection" id="4cdb84cb-6713-45b2-98b3-6e17ba3d852d" source="ce399359-7725-42ee-9e08-c99fcae8c7f6" target="da191177-cd86-437b-8b1e-e8a8a1464724" archimateRelationship="25c03ba1-6bae-4428-8ca8-f6ffc7ce4656"/>
       </child>
     </element>
     <element xsi:type="archimate:ArchimateDiagramModel" name="5.4 - Maintenance en ligne" id="47beea31-d62f-4f01-b862-cdbe76362efd" viewpoint="service_realization">
       <child xsi:type="archimate:DiagramObject" id="d6fb2e49-17ce-4e52-816b-353b30f5832f" targetConnections="cbc04405-4ed4-439e-9cb4-ffc972c2b062" archimateElement="5889a83c-2ea0-404c-ae3b-314410c6606f">
-        <bounds x="36" y="120" width="120" height="55"/>
+        <bounds x="24" y="108" width="120" height="55"/>
       </child>
       <child xsi:type="archimate:DiagramObject" id="0dd96b73-c930-4f19-8b2a-2314b531191a" fillColor="#80ffff" archimateElement="37d4b7c6-e4e5-4d93-8396-687f7d03593b">
-        <bounds x="36" y="24" width="120" height="55"/>
+        <bounds x="24" y="12" width="120" height="55"/>
         <sourceConnection xsi:type="archimate:Connection" id="cbc04405-4ed4-439e-9cb4-ffc972c2b062" source="0dd96b73-c930-4f19-8b2a-2314b531191a" target="d6fb2e49-17ce-4e52-816b-353b30f5832f" archimateRelationship="37fbb3a2-2c30-442d-b880-5585d67ac504"/>
       </child>
     </element>
     <element xsi:type="archimate:ArchimateDiagramModel" name="5.5 - Réparation, entretien et sous-traitance d'équipements" id="7d560b1d-4c0b-41eb-89d7-a8f010c726f1" viewpoint="service_realization">
       <child xsi:type="archimate:DiagramObject" id="27719860-6b5a-4993-a2f5-6e23be6bbe45" targetConnections="1026e85d-3b70-4bc0-97da-44bdf6f44b32" archimateElement="a70ef1a8-f273-414a-9db9-ddb1637d4bdb">
-        <bounds x="24" y="108" width="145" height="55"/>
+        <bounds x="24" y="96" width="145" height="55"/>
       </child>
       <child xsi:type="archimate:DiagramObject" id="c1285c17-799f-4089-b07a-8d54958c476c" fillColor="#80ffff" archimateElement="37d4b7c6-e4e5-4d93-8396-687f7d03593b">
-        <bounds x="24" y="24" width="120" height="55"/>
+        <bounds x="24" y="12" width="120" height="55"/>
         <sourceConnection xsi:type="archimate:Connection" id="1026e85d-3b70-4bc0-97da-44bdf6f44b32" source="c1285c17-799f-4089-b07a-8d54958c476c" target="27719860-6b5a-4993-a2f5-6e23be6bbe45" archimateRelationship="e17e504b-7729-499c-b7ed-60c4a21a066f"/>
       </child>
     </element>
