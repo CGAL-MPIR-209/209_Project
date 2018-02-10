@@ -57,7 +57,7 @@
     <element xsi:type="archimate:BusinessService" name="Service de décapage à sec et peinture" id="a52915f4-3f4a-4e64-871e-10c6a299f03f"/>
     <element xsi:type="archimate:BusinessProcess" name="Réaliser une peinture" id="d9cc29ec-01be-4681-915b-baa6bec00ed9"/>
     <element xsi:type="archimate:BusinessProcess" name="Réaliser une décapage à sec" id="d02c8a36-a9b9-4640-bdc3-0c51658d52be"/>
-    <element xsi:type="archimate:BusinessService" name="Service de entretien en ligne" id="375babfa-cd04-4df9-a8d8-ea96abf85f4a"/>
+    <element xsi:type="archimate:BusinessService" name="Service d'entretien en ligne" id="375babfa-cd04-4df9-a8d8-ea96abf85f4a"/>
     <element xsi:type="archimate:BusinessService" name="Service de réparation et fabrication" id="fed00f79-5c27-44b4-93e2-b7e2662cf502"/>
     <element xsi:type="archimate:BusinessService" name="Service de vente de pièces" id="9682370d-236f-42ff-99fb-1260071c1af3"/>
     <element xsi:type="archimate:BusinessRole" name="Technicien PCT" id="7794aa27-aeb9-4277-bcdd-4454cd466196"/>
